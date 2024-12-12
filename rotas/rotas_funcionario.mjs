@@ -21,6 +21,6 @@ rotas_funcionarios.get("/", (req, res) => {
 rotas_funcionarios.post("/cadastrar", novo); // /cadastrar
 rotas_funcionarios.get("/listar", todos); // /listar
 rotas_funcionarios.put("/editar", altera); // /editar
-rotas_funcionarios.delete("/excluir", exclui); // /excluir
+rotas_funcionarios.delete("/excluir/:id", exclui); // /excluir
 
 export default rotas_funcionarios;

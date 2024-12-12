@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS Funcionarios (
 );
 CREATE TABLE IF NOT EXISTS Fornecedores (
     id_fornecedores INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(77) NOT NULL,
+    nome VARCHAR(77) NOT NULL,D
     descricao TEXT,
     rua VARCHAR(77),
     bairro VARCHAR(77),

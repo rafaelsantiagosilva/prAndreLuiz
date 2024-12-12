@@ -5,7 +5,7 @@ const Funcionario = conexao.define("Funcionario", {
   nome: {
     type: DataTypes.STRING,
   },
-  Salario: {
+  salario: {
     type: DataTypes.INTEGER
   },
   CPF: {
