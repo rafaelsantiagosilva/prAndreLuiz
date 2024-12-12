@@ -21,6 +21,6 @@ rotas_clientes.get("/", (req, res) => {
 rotas_clientes.post("/cadastrar", novo); // /cadastrar
 rotas_clientes.get("/listar", todos); // /listar
 rotas_clientes.put("/editar", altera); // /editar
-rotas_clientes.delete("/excluir", exclui); // /excluir
+rotas_clientes.delete("/excluir/:id", exclui); // /excluir
 
 export default rotas_clientes;

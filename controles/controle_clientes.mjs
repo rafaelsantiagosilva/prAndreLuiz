@@ -46,7 +46,7 @@ async function altera(req, res) {
 
 async function exclui(req, res) {
   const cli = await Cliente.findOne({
-    where: { id: req.body.id },
+    where: { id: req.params.id },
   });
 
   await cli.destroy();
